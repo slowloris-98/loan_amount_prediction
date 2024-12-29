@@ -1,0 +1,16 @@
+Codes are executed in Python, require the following packages which can be installed through pip
+
+pyspark
+tensorflow
+numpy
+pandas
+scikit-learn
+
+Each notebook maps to the corresponding model, linear regression, decision tree, random forest, MLP and RNN
+Only need to chance the csv file location for join_df.csv to match yours.
+
+For ETL source code, it is run on Databricks community edition and therefore comes in extension .dbc.
+The notebook is a mix of Python code, which downloads the csv and load it as a Hive Table, and sql parts
+to do the ETL. To run this code you can impor the dbc file on Databricks community. To see the sql we have 
+attached ETL.sql. Otherwise, the "join_df.csv" file is attached.
+
